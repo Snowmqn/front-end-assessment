@@ -1,6 +1,5 @@
 <!--Repeat over your data and display it below -->
-
-<div class="product-grid__item   grid__item one-half large--one-third" >
+<div class="product-grid__item   grid__item one-half large--one-third" ng-repeat="product in products">
 
     <!--Product Image-->
     <!--Product Image click Should redirect to the product-details section. remember to pass along the product id so you can make an api call
@@ -13,7 +12,7 @@
     <div class="product-grid__meta">
         <!-- Tittle-->
         <!--Title click Should redirect to the details section-->
-        <h3 class="product-grid__name"><a><!--Title--></a></h3>
+        <h3 class="product-grid__name"><a></a></h3>
         <!--Product Description-->
         <h4 class="product-grid__sub"><!--Desc--></h4>
 

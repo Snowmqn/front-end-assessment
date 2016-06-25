@@ -1,0 +1,1 @@
+var aT = angular.module('assessment', ['ui.router']);
